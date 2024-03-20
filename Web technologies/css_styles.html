@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Margin and Padding Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        #intro {
+            background-color: #f4f4f4;
+            margin-top: 10px;
+        }
+
+        #skills {
+            margin-top: 5px;
+        }
+
+        #skills ul {
+            list-style-type: none;
+            padding: 10px;
+        }
+
+        #skills li {
+            border: 1px solid #6086ee;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        #contact {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        @media only screen and (max-width: 600px) {
+            header {
+                font-size: 1.5em;
+            }
+            #skills li {
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ian Maguithi</h1>
+</header>
+
+<section id="intro">
+    <h2>Introduction</h2>
+    <p>Hello, I'm Ian Maguithi. I am passionate about programming and cryptocurrency. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.</p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Responsive Web Design</li>
+        <li>UI/UX Design</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact Information</h2>
+    <p>Email: ianmaguithi@ieee.org</p>
+    <p>Social Media: <a href="https://github.com/IanMaguithi">Star my repos on GitHub </a></p>
+</section>
+
+</body>
+</html>
